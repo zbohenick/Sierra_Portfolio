@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Lusitana|Raleway:300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+<link rel="icon" href="./img/favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<title>Sierra Rehm Portfolio</title>
+<style>
+:root {
+    --accent: #8AB59E;
+    --black: black;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+    
+}
+a {
+    color: var(--accent);
+    transition: none;
+}
+
+
+header, main, footer {
+  padding-left: 200px;
+}
+.nav-wrapper {
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+h3 {
+    font-size: 2em;
+    color: black;
+}
+h2 {font-weight: 500;}
+
+.publication a:hover {
+    color: #00A76A;
+}
+
+@media only screen and (min-width : 992px) {
+    nav {
+    box-shadow: none;
+    border-bottom: none;
+}
+}
+.modal {width: 70%;
+max-height: 80%;}
+@media only screen and (max-width: 992px){
+    .modal {
+    width: 90%;
+    }
+    .nav-wrapper {
+    background-color: var(--accent);
+}
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  nav {
+    box-shadow: default;
+    border-bottom: none;
+}
+.grid {
+    grid-template-columns: 1fr;
+}
+}
+.dropdown-content li > a{
+  color:var(--accent) !important;
+}
+
+.side-nav li.active{
+  background-color:var(--accent) !important;
+}
+
+.side-nav li.user-li.active{
+  background-color: transparent !important;
+}
+
+
+.grid img {width: 100%;}
+
+
+
+
+ .side-nav li.active.lone a,.side-nav li.active ul li:first-child, .side-nav li.active.lone a svg, .side-nav li.active ul li div.collapsible-header p svg{
+  color:#FFFFFF !important;
+}
+
+.my-icon{
+  font-size:1.5em;
+  margin-right:14px;
+  color:var(--accent);
+}
+
+.changed{
+  margin-left:5px;
+  color:var(--accent);
+}
+
+.no-margin{
+  margin:0px;
+}
+
+.user-li{
+  background-color: white !important;
+}
+
+.side-nav {
+    background-color: white;
+}
+
+.preview a:hover{
+    color: #00A76A;
+}
+.button-collapse {
+ float: right;
+}
+ </style>
+</head>
+ <body>
+               
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo"></a>
+
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    
+    <ul id="slide-out" class="side-nav fixed main-side">
+        <li class="user-li"><div class="user-view">
+        <div class="background">
+        </div>
+        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313.87 296.56"><defs><style>.cls-1{fill:var(--accent);}</style></defs><title>logoSierra</title><path class="cls-1" d="M168.91,166.18l-59.41-59.4h0l-.13-.12h0a.86.86,0,0,1-.14-.13,34.54,34.54,0,1,1,57.68-15.17h0s11.59-5.5,17.17-5.45a50.38,50.38,0,1,0-85.86,31.84c1,1,2.13,2,3.23,2.94l31.8,31.79h0l25.62,25.62a.52.52,0,0,0,.11.1,34.54,34.54,0,1,1-57.85,15.74h0a70.36,70.36,0,0,1-17.06,5.84A50.38,50.38,0,1,0,170,167.2C169.63,166.85,169.26,166.52,168.91,166.18Z" transform="translate(-23.2 -31.72)"/><path class="cls-1" d="M110.22,177.26,128,159.49l-11-11-18.7,18.7-.1.11a34.54,34.54,0,1,1-15.74-57.85h0a71.3,71.3,0,0,1-5.84-17.06,50.38,50.38,0,1,0,32.58,85.91C109.56,178,109.89,177.62,110.22,177.26Z" transform="translate(-23.2 -31.72)"/><path class="cls-1" d="M334.33,262.33c-6.27-17.68-24.83-21.88-37.1-19.36,0,0,17.82,12.28,21.74,24.35a34.54,34.54,0,0,1-65.71,21.32.74.74,0,0,0,0-.14L242,254h0l-13.88-42.76c-.32-1.41-.7-2.82-1.15-4.22a50.18,50.18,0,0,0-11.43-19.17,50.38,50.38,0,1,0-56.89-81.29q-1.56,1.56-3,3.23L140.4,125.16l11,11,18.27-18.27h0l.13-.12h0l.13-.14a34.54,34.54,0,1,1,15.17,57.69h0s5.5,11.59,5.45,17.17a53.08,53.08,0,0,0,5.35.12h0c4.88,4,12.16,7.64,16.16,19.19a1.27,1.27,0,0,1,.06.18h0l.06.17h0L238.06,292c.14.47.27.94.42,1.41A50.38,50.38,0,0,0,302,325.81C328.42,317.22,343.62,288.56,334.33,262.33Z" transform="translate(-23.2 -31.72)"/></svg>
+        <p class="no-margin"></cla><span class="name">Sierra Rehm</span></p>
+        <p class="no-margin"><span class="black-text email">Digital Journalist</span></p>
+        </div></li>
+        <div class="divider"></div>
+        <li class="lone"><a class="waves-effect" href="#test2"></i>Home</a></li>
+        <li class="dropchange">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                    <div class="collapsible-header head">
+                        <p style="margin:0px;padding-left:16px; font-weight: 500; font-size:100%;"></i>Articles<i class="fa fa-angle-right changed"></i></p>
+                    </div>
+                    <div class="collapsible-body drop-body">
+                        <ul class="drop-body">
+                        <li><a class="waves-effect" href="#test3">Featured</a></li>
+                        <li><a class="waves-effect" href="#news">News</a></li>
+                        <li><a class="waves-effect" href="#">Human Interest</a></li>
+                        <li><a class="waves-effect" href="#">Personal Essays</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                </ul>
+                </li>
+        <li class="lone"><a class="waves-effect" href="#test2"></i>About</a></li>
+        <li class="lone"><a class="waves-effect" href="#"></i>Resume</a></li>
+        <li class="lone"><a class="waves-effect" href="#"></i>Photography</a></li>
+        <li class="lone"><a class="waves-effect" href="#"></i>Contact</a></li>
+
+        
+    </ul>
+
+
+
+
+<main>
+    <div class="row">
+        <div id="news" class="col s12 section scrollspy">
+        <h2>News</h2>
+        <hr>
+<div class="grid">
+         
+                
+
+<img src="./img/standupforscience.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>     
+</div>
+</main>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    </script>
+
+    </body>
+    <script type="text/javascript">
+             $(document).ready(function() {
+    
+    $('.dropdown-button').dropdown({
+       inDuration: 300,
+       outDuration: 225,
+       constrainWidth: false, // Does not change width of dropdown to that of the activator
+       hover: true, // Activate on hover
+       gutter: 0, // Spacing from edge
+       belowOrigin: false, // Displays dropdown below the button
+       alignment: 'left', // Displays dropdown with edge aligned to the left of button
+       stopPropagation: false // Stops event propagation
+     }
+   );
+    
+    $('.collapsible').collapsible({
+     accordion: true, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+     onOpen: function(el) {  }, // Callback for Collapsible open
+     onClose: function(el) {  } // Callback for Collapsible close
+   });
+
+    
+    $('.button-collapse').sideNav({
+       menuWidth: 200, // Default is 300
+       edge: 'left', // Choose the horizontal origin
+       closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+       draggable: true, // Choose whether you can drag to open on touch screens,
+       onOpen: function(el) {}, /* Do Stuff* / }, // A function to be called when sideNav is opened*/
+       onClose: function(el) { }/* Do Stuff* / }, // A function to be called when sideNav is closed*/
+     });
+
+     $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        });
+
+
+     $('.side-nav li').click(function(){
+       $('.side-nav li.active').removeClass('active');
+       $(this).closest('li').addClass('active');
+     });
+    
+     $('.dropchange .head').on('click', function () {
+       $(this)
+         .find('.changed')
+         .toggleClass('fa-angle-down')
+         .toggleClass('fa-angle-right');
+     });
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+        
+  
+    
+    
+  });
+ 
+  
+            </script>
+</html> 
+
